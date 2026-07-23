@@ -70,13 +70,17 @@ nav ul li a:hover{
     align-items:center;
     justify-content:space-between;
     padding:120px 8% 50px;
-
+    position: relative;
 }
+
 
 
 .hero-text{
     width:55%;
+    position: relative;
+    z-index: 10;
 }
+
 
 
 .hero-text h1{
@@ -144,7 +148,10 @@ nav ul li a:hover{
 
 
 /* Photo */
-
+.hero-img{
+    position: relative;
+    z-index: 1;
+}
 
 .hero-img img{
 
