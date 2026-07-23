@@ -1,1 +1,347 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
 
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+}
+
+
+/* Navbar */
+
+header{
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    background:#0f172a;
+    z-index:1000;
+}
+
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+}
+
+
+.logo{
+    color:#38bdf8;
+    font-size:30px;
+}
+
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
+
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-size:16px;
+}
+
+
+nav ul li a:hover{
+    color:#38bdf8;
+}
+
+
+
+/* Hero */
+
+.hero{
+
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:120px 8% 50px;
+
+}
+
+
+.hero-text{
+    width:55%;
+}
+
+
+.hero-text h1{
+
+    font-size:45px;
+
+}
+
+
+.hero-text h1 span{
+
+    color:#38bdf8;
+
+}
+
+
+.hero-text h2{
+
+    margin:15px 0;
+    color:#8b5cf6;
+
+}
+
+
+.hero-text p{
+
+    color:#cbd5e1;
+    line-height:1.7;
+    margin-bottom:25px;
+
+}
+
+
+
+.btn{
+
+    display:inline-block;
+    padding:12px 25px;
+    background:#38bdf8;
+    color:black;
+    border-radius:30px;
+    text-decoration:none;
+    margin-right:10px;
+    font-weight:bold;
+
+}
+
+
+.second{
+
+    background:transparent;
+    border:2px solid #38bdf8;
+    color:white;
+
+}
+
+
+
+.btn:hover{
+
+    transform:scale(1.05);
+
+}
+
+
+
+/* Photo */
+
+
+.hero-img img{
+
+    width:320px;
+    height:320px;
+    object-fit:cover;
+    border-radius:50%;
+    border:5px solid #38bdf8;
+    box-shadow:0 0 30px #38bdf8;
+
+}
+
+
+
+
+/* Social */
+
+
+.social{
+
+    margin-top:30px;
+
+}
+
+
+.social a{
+
+    color:white;
+    font-size:25px;
+    margin-right:20px;
+
+}
+
+
+.social a:hover{
+
+    color:#38bdf8;
+
+}
+
+
+
+/* Sections */
+
+
+section{
+
+    padding:80px 8%;
+
+}
+
+
+section h2{
+
+    text-align:center;
+    font-size:35px;
+    margin-bottom:40px;
+    color:#38bdf8;
+
+}
+
+
+
+/* Skills */
+
+
+.skill{
+
+    margin:25px 0;
+
+}
+
+
+.bar{
+
+    background:#334155;
+    height:12px;
+    border-radius:20px;
+
+}
+
+
+.html{
+
+    width:95%;
+    height:100%;
+    background:#38bdf8;
+
+}
+
+
+.css{
+
+    width:90%;
+    height:100%;
+    background:#38bdf8;
+
+}
+
+
+.js{
+
+    width:80%;
+    height:100%;
+    background:#38bdf8;
+
+}
+
+
+.python{
+
+    width:75%;
+    height:100%;
+    background:#38bdf8;
+
+}
+
+
+
+
+/* Education Card */
+
+
+.card{
+
+    background:#1e293b;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+
+}
+
+
+
+/* Contact */
+
+
+#contact{
+
+    text-align:center;
+
+}
+
+
+#contact p{
+
+    margin:15px;
+    color:#cbd5e1;
+
+}
+
+
+
+
+footer{
+
+    text-align:center;
+    padding:20px;
+    background:#020617;
+
+}
+
+
+
+/* Mobile */
+
+
+@media(max-width:768px){
+
+.hero{
+
+    flex-direction:column;
+    text-align:center;
+
+}
+
+
+.hero-text{
+
+    width:100%;
+
+}
+
+
+.hero-img img{
+
+    width:230px;
+    height:230px;
+    margin-top:40px;
+
+}
+
+
+nav ul{
+
+    display:none;
+
+}
+
+}
